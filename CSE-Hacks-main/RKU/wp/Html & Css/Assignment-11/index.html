@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>CSE Hacks</title>
+
+    <!--Favicon-->
+    <link style="border-radius: 7px;" href="logo/logo2.png" width="60px" rel="icon">
+    <link style="border-radius: 7px;" href="logo/logo2.png" width="60px" rel="apple-touch-icon">
+
+    <!---------Css-------->
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <!-----Google font----->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&             display=swap" rel="stylesheet">
+
+    <!-----Fontawesome----->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/f4de1cba20.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f4de1cba20.js" crossorigin="anonymous"></script>
+
+    <!------Bootstrap------>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body class="body">
+
+
+
+    <!-----------------------Navbar start------------------->
+
+
+
+
+
+
+    <section class="navbar-main ">
+
+
+
+        <div class="container text-center">
+            <div class="row align-items-start">
+                <div class="col col-sm-12 col-md-12 col-lg-2  ">
+                    <a href="/index.html"><img src="/logo/logo.png" width="180" alt="" class="my-1"></a>
+                </div>
+                <div class="col col col-sm-10 col-md-9 col-lg-8  ">
+
+                    <div class="search-bar-back my-2 ">
+                        <form class="d-flex search-bar2" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+                            <div class="nav-div">
+
+
+                                <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+
+
+                <div class="col col col-sm-2 col-md-3 col-lg-2  log-in-back my-2">
+
+                    <div class="login-button">
+                        <a href="login_register/index.html"> <button> <i class="fa-solid fa-arrow-right-to-bracket"></i> <span>Log in</span> </button></a>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+        <div class=" text-center">
+            <div class="nabar-link">
+
+                <div>
+                    <a href=""> <i class="fa-solid fa-house"></i> Home</a>
+                </div>
+
+                <!-- <div id="rku"> <a href="#latest-part"><i class="fa-solid fa-table-cells"></i> RKU</a> </div> -->
+                <div> <a href="#latest-part"><i class="fa-solid fa-table-cells"></i> Latest</a> </div>
+                <div>
+                    <a href="#trend-tuto"> <i class="fa-solid fa-arrow-trend-up"></i> Trend</a>
+                </div>
+                <div> <a href=""><i class="fa-brands fa-html5"></i> HTML</a> </div>
+                <div> <a href=""><i class="fa-brands fa-css3-alt"></i> CSS</a> </div>
+                <div> <a href=""><i class="fa-brands fa-square-js"></i> JS</a> </div>
+                <div> <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M3.345 6.935c-1.756 2.523-1.538 5.806-.196 8.487l.098.19c.021.04.041.082.063.121c.012.024.026.047.039.069a7.842 7.842 0 0 0 .198.344l.073.12a9.14 9.14 0 0 0 .211.33a10.179 10.179 0 0 0 .221.319l.036.049c.063.088.129.175.196.261l.074.094l.182.223l.069.082c.082.097.167.194.252.289l.005.005c.004.004.007.006.01.011c.083.091.17.181.256.271l.083.083l.205.201l.084.08c.092.087.186.172.281.256l.004.004l.049.041c.083.073.169.145.255.215l.105.084a11.03 11.03 0 0 0 .565.424c.029.021.057.042.087.062l.024.017c.076.053.154.103.231.153c.033.022.066.045.101.067a10.975 10.975 0 0 0 .886.509c.065.034.129.068.195.101l.045.022l.08.039c.102.048.205.097.308.143l.066.029c.119.052.239.102.36.149l.088.035a13.895 13.895 0 0 0 .382.142c.125.044.252.085.38.124l.092.028c.128.039.256.085.39.11c8.492 1.548 10.958-5.102 10.958-5.102c-2.072 2.698-5.748 3.41-9.232 2.618c-.132-.03-.261-.071-.39-.109l-.097-.029a10.929 10.929 0 0 1-.755-.264l-.093-.036c-.12-.047-.239-.097-.356-.148l-.071-.031a11.932 11.932 0 0 1-.301-.14l-.087-.042c-.078-.038-.155-.079-.232-.118c-.051-.027-.104-.053-.155-.082a8.294 8.294 0 0 1-.278-.156l-.094-.052a11.4 11.4 0 0 1-.363-.223l-.098-.065a10.557 10.557 0 0 1-.259-.172l-.083-.059c-.082-.058-.164-.116-.244-.176a11.921 11.921 0 0 1-.328-.255l-.099-.079c-.092-.076-.184-.152-.274-.231a12.01 12.01 0 0 1-.319-.288c-.028-.026-.055-.051-.081-.078a7.985 7.985 0 0 1-.208-.203l-.081-.081a10.76 10.76 0 0 1-.254-.269l-.012-.012a11.75 11.75 0 0 1-.258-.293l-.067-.081a10.313 10.313 0 0 1-.254-.313a11.855 11.855 0 0 1-.215-.286C3.864 11.825 3.17 8.186 4.715 5.198"/><path fill="currentColor" d="M8.794 4.809c-1.27 1.827-1.2 4.273-.21 6.205c.166.324.353.639.561.938c.191.273.401.597.654.816c.092.101.187.199.284.295l.076.074c.094.092.19.182.291.271l.011.01l.003.002c.111.097.224.19.34.281l.078.06a8.281 8.281 0 0 0 .366.268c.053.037.108.072.161.107c.026.017.051.035.078.051a7.14 7.14 0 0 0 .301.184c.076.044.155.087.233.13c.026.015.055.029.082.043c.055.028.108.057.163.083a9.645 9.645 0 0 0 .365.171l.074.031c.093.039.186.077.281.113l.117.044c.086.032.171.06.256.089l.117.037c.121.038.243.085.37.107c6.556 1.086 8.068-3.961 8.068-3.961c-1.364 1.964-4.006 2.902-6.825 2.17a7.866 7.866 0 0 1-.743-.232l-.118-.043a7.629 7.629 0 0 1-.353-.145a8.79 8.79 0 0 1-.344-.159c-.057-.028-.113-.058-.17-.087l-.099-.051a9.352 9.352 0 0 1-.533-.313l-.08-.053a7.65 7.65 0 0 1-.602-.435c-1.234-.974-2.213-2.306-2.678-3.815c-.488-1.566-.382-3.323.462-4.75"/><path fill="currentColor" d="M13.379 3.221c-.749 1.102-.823 2.469-.304 3.686c.548 1.292 1.671 2.304 2.981 2.785a3.85 3.85 0 0 0 .234.079c.077.024.152.053.233.067c3.62.699 4.601-1.857 4.862-2.234c-.86 1.239-2.306 1.536-4.078 1.105a5.403 5.403 0 0 1-.939-.344a5.39 5.39 0 0 1-.895-.545c-1.585-1.204-2.573-3.501-1.536-5.372"/></svg> JQ </a>                    </div>
+                <div> <a href=""><i class="fa-regular fa-copyright"></i> PHP</a> </div>
+                <div> <a href=""><i class="fa-solid fa-c"></i> C</a> </div>
+                <div> <a href=""><i class="fa-brands fa-python"></i> PY</a> </div>
+                <div>
+                    <a href=""> <i class="fa-brands fa-java"></i> JAVA</a>
+                </div>
+                <div>
+                    <a href=""> <i class="fa-brands fa-stack-overflow"></i> DSA</a>
+                </div>
+                <div> <a href=""><i class="fa-solid fa-database"></i> DBMS</a> </div>
+                <div> <a href=""><i class="fa-solid fa-language"></i> EN</a> </div>
+                <div> <a href=""><i class="fa-solid fa-brain"></i> GK</a> </div>
+                <div> <a href=""><i class="fa-regular fa-newspaper"></i>ARTI</a> </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-----------------------Navbar End------------------->
+
+
+
+    <section class="container home-page-section">
+        <div class="rku-logo-head">
+            <img src="/RKU/logo/web-programming.png" width="110px" alt="">
+            <p> Welcome to <span>WP</span> zone</p>
+
+
+            <marquee class="container" scrollamount="10" behavior="" direction="">Here you can find all the <span>Assignment/Tutorial</span> of WEP PROGRAMING</marquee>
+
+
+        </div>
+
+        <hr>
+    </section>
+
+
+
+
+
+
+    <!-----------------------Latest Tutorial  start------------------->
+
+
+
+
+
+    <section id="latest-part" class="container bg-white my-4 ">
+
+
+        <div class=" p-2 my-4 latest-tutorial-headline"> <i class="fa-solid fa-table-cells"></i> Web Programing <span>Assignment-11</span> </div>
+
+
+        <div class="container text-center latest-tutorial-div0 ">
+            <div class="row p-4 row-cols-2 row-cols-lg-5 g-2    g-lg-3 latest-tutorial-div my-3 ">
+
+
+                <div class="col  text-decoration-p">
+
+
+
+
+                    <a href="#assignment1">
+                        <div class="shadow h-100 w-100 ">
+                            Question-01
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment2">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-02
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment3">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-03
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment4">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-04
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment5">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-05
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment6">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-06
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment7">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-07
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment8">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-08
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment9">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-09
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment10">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-10
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment11">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-11
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment12">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-12
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment13">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-13
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment14">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-14
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col text-decoration-p">
+
+                    <a href="#assignment15">
+                        <div class="shadow h-100 w-100 ">
+                            Assignment-15
+
+
+
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+        <section id="assignment1" class="container hide-content">
+
+            <div class="   latest-tutorial-headline"> <i class="fa-solid fa-code"></i> Output</div>
+
+
+
+
+
+
+        </section>
+
+        <section id="assignment2" class="container hide-content">
+
+            <div class="   latest-tutorial-headline my-3"> <i class="fa-solid fa-code"></i> Develop a login.html and registration.html with bootstrap design.</div>
+
+            <ul>
+                <li>The login page must have a username and password field. Reference: Login (epizy.com)</li>
+                <li>Registration page must have a name, the username(email), password, re-password, age, birth date, country, state, city, profile picture, note. (Use appropriate HTML form elements) Reference: Registration (epizy.com)</li>
+                <li>Also, add the registration link for registration.html in the login.html page.
+                </li>
+                <li>Apply your design concept with CSS.</li>
+                <li>The design must be responsive.</li>
+
+            </ul>
+            <a href="Html & Css/Tutorial-02.zip"><button type="button" class="btn btn-primary mx-3">Download Source Code</button></a>
+
+        </section>
+
+        <section id="assignment3" class="container hide-content">
+
+            <div class="   latest-tutorial-headline my-3"> <i class="fa-solid fa-code"></i>Create and publish your own website</div>
+
+
+            <a href="Html & Css/"><button type="button" class="btn btn-primary mx-3">Download Source Code</button></a>
+
+        </section>
+
+
+        <section id="assignment4" class="container hide-content">
+
+            <div class="   latest-tutorial-headline my-3"> <i class="fa-solid fa-code"></i> jQuery Selectors and Methods</div>
+
+            <ul>
+                <li>Set background color yellow for h1,p,p and textarea elements subsequently.</li>
+                <li>There are two elements in the page: checkbox and button. By default the button is disabled. When the checkbox is marked, the button is enabled.</li>
+                <li>Add image in web page with size 100X100. When clicking on button image size zoom to 500X300. Do it using attr() method.
+                </li>
+                <li>Change the contents of the paragraph using html() method.</li>
+                <li>By clicking on the button create a copy of p tag into div tag.</li>
+                <li>Demonstrate at least 5 mouse events with your creative ideas in tutorial 1 web pages.</li>
+                <li>Demonstrate keyboard events with your creative ideas in tutorial 2 web pages.</li>
+                <li>Creating animation on clicking a button that continuously changes the height and width of the box.</li>
+                <li>Demonstrate hide() and show() effect.</li>
+                <li>DemonstratefadeIn(),fadeOut(),fadeToggle(), fadeTo() with creative ideas.</li>
+
+            </ul>
+            <a href="Html & Css/Tutoaial-04.zip"><button type="button" class="btn btn-primary mx-3">Download Source Code</button></a>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 11 -->
+
+        <section id="assignment11" class="container hide-content">
+
+            <div class="   latest-tutorial-headline my-3"> <i class="fa-solid fa-code"></i>Assignment-11__PHP General code</div>
+
+            <div class="col text-decoration-p">
+
+                <a href="Html & Css/"><button type="button" class="btn btn-primary mx-3">Download Source Code</button></a>
+                <a href="Html & Css/Assignment-11/index.html"><button type="button" class="btn btn-primary mx-3">For Output Scrool Down </button></a>
+            </div>
+
+
+            <!-- <div class="code-output my-4">
+                <div class=" code-output2 ">
+
+                    1. Write PHP Script using two dimensional arrays such as addition of two 2x2 matrices.
+                </div>
+                <div class="  code-output23">
+
+                    <xmp>
+
+                        <?php
+                        // Elements of matrix a
+                        $a = array
+                        (
+                        array(1, 0, 1),
+                        array(4, 5, 6),
+                        array(1, 2, 3)
+                        );
+                        //Elements of matrix b
+                        $b = array
+                        (
+                        array(1, 1, 1),
+                        array(2, 3, 1),
+                        array(1, 5, 1)
+                        );
+                        // To determine the no.of rows and columns of given matrix
+                        $rows = count($a);
+                        $cols = count($a[0]);
+                        //Performs addition of matrices a and b. Store the result in matrix sum
+                        for($i = 0; $i < $rows; $i++)
+                        {
+                        for($j = 0; $j < $cols; $j++)
+                        {
+                        $sum[$i][$j] =0; //Initially sum to be declare with 0
+                        $sum[$i][$j] = $a[$i][$j] + $b[$i][$j];
+                        }
+                        }
+                        echo ("Addition of two matrices: <br>");
+                        // To print result in matrix form
+                        for($i = 0; $i < $rows; $i++)
+                        {
+                        for($j = 0; $j < $cols; $j++)
+                        {
+                        echo($sum[$i][$j] . " ");
+                        }
+                        echo("<br>" );
+                        }
+                        ?>
+
+
+
+                    </xmp>
+                </div>
+
+
+            </div> -->
+
+
+        </section>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-----------------------Latest Tutorial End------------------->
+
+
+
+
+
+
+
+
+    <!--Bootstrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+
+    <!--Font awesome-->
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+</head>
+<body>
+    
+
+  <h2>1........The onclick Event</h2>
+
+<h2> DOM Events</h2>
+
+
+<p>This is the HTML DOM EVENT when i click my button after that it show </p>
+ 
+
+<button onclick="myFunction()">Click me</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+<hr style="height: 5px solid black;">
+
+
+<h2>2........The contextmenu Event</h2>
+<h2>HTML DOM Events</h1>
+
+
+<div style="border:1px solid black;text-align:center">
+<p>Right-click in this box!</p>
+<p>Context menu will show.</p>
+</div>
+<br>
+<div id="myDiv" style="border:1px solid black;text-align:center">
+<p>Right-click in this box!</p>
+<p>Context menu is disabled.</p>
+</div>
+
+<hr style="height: 5px solid black;">
+<script>
+const div = document.getElementById("myDiv");
+div.addEventListener("contextmenu", (e) => {e.preventDefault()});
+</script>
+
+
+
+<h2>3..........The ondblclick Event</h2>
+
+
+<h2>HTML DOM Events</h1>
+
+
+<p ondblclick="myFunction()">Double-click this paragraph to trigger a function.</p>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML += "Hello World ";
+}
+</script>
+
+
+<hr style="height: 5px solid black;">
+
+<h2>4........The onmousedown Event</h2>
+
+<h2>HTML DOM Events</h1>
+
+
+<p>Clock the text below!</p>
+<p id="myP" onmousedown="mouseDown()" onmouseup="mouseUp()">
+The mouseDown() function sets the color of this text to red.
+The mouseUp() function sets the color of this text to blue.
+</p>
+
+<script>
+function mouseDown() {
+  document.getElementById("myP").style.color = "red";
+}
+
+function mouseUp() {
+  document.getElementById("myP").style.color = "blue";
+}
+</script>
+<hr style="height: 5px solid black;">
+
+
+<h2>5........The onmouseenter Event</h2>
+<h2>HTML DOM Events</h1>
+
+
+<img onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" border="0" src="img/about-img.jpg" alt="Smiley" width="32" height="32">
+
+<p>The function bigImg() is triggered when the user moves the mouse pointer onto the image.</p>
+<p>The function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+<script>
+function bigImg(x) {
+  x.style.height = "64px";
+  x.style.width = "64px";
+}
+
+function normalImg(x) {
+  x.style.height = "32px";
+  x.style.width = "32px";
+}
+</script>
+
+
+</body>
+</html>

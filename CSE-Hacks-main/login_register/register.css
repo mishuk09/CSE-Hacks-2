@@ -1,0 +1,83 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Sofia+Sans+Condensed:wght@300&display=swap');
+    @media only screen and(max) {}
+    
+    body {
+        font-family: sans-serif;
+        font-family: 'Aleo', serif;
+    }
+    
+    #body {
+        background-color: #f9f4f4;
+        justify-content: center;
+    }
+    
+    .login-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .card-registration {
+        width: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: none;
+    }
+    
+    .login-button span {
+        font-weight: 700;
+        margin-left: 5px;
+    }
+    
+    form button {
+        background-color: #5cb85f;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+    
+    .login-button a {
+        margin-left: 10px;
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 4px;
+        padding: 4px;
+    }
+    
+    .form {
+        padding-left: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 50px;
+        font-size: 15px;
+        border: none;
+        background-color: white;
+        border-radius: 7px;
+        border: 1px solid rgb(209, 209, 209);
+    }
+    
+    .login-form h6 {
+        font-weight: 700;
+        margin-left: 18px;
+        margin-top: 5px;
+    }
+    
+    .login-form input {
+        font-size: 15px;
+    }
+    
+    .login-form label {
+        font-size: 15px;
+        color: red;
+        font-weight: 700;
+        visibility: hidden;
+    }
