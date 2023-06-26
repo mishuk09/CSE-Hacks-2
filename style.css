@@ -538,3 +538,45 @@ footer {
         padding-left: 0px;
     }
 }
+
+@media only screen and (max-width:768px) and (min-width: 400px) {
+    #footer-main-div #footer-main-div2 #footer-main-div {
+        width: 100%;
+    }
+    #footer-main-div #footer-main-div2 #footer-contact-div {
+        background-color: #3e8e41;
+        /* background-color: #071c2e; */
+        justify-content: center;
+        text-align: center;
+    }
+    #andriod-app-logo-div {
+        margin-left: 25px;
+    }
+    #app-logo-div span {
+        font-size: 12px;
+    }
+    #footer-about-div {
+        padding-left: 0px;
+    }
+    #footer-learn-div {
+        padding-left: 0px;
+        margin-left: 0px;
+    }
+    #footer-main-div3 {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 220px;
+    }
+    #footer-main-div3 #app-logo-div img {
+        padding-left: 10px;
+    }
+    #app-logo-div img {
+        padding-left: 10px;
+    }
+    #footer-main-div #footer-main-div2 #footer-main-div3 .footer-main-div0 #app-logo-div img {
+        margin-left: 0px;
+        justify-content: center;
+        padding-left: 0px;
+    }
+}
